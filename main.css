@@ -1,30 +1,26 @@
 body {
-    background: no-repeat center center fixed;
-    background-image: url("img/img1.jpg");
-
+    background: url("img/img1.jpg") no-repeat fixed center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100%;
     overflow: hidden;
-}
-
-h1, h2, h3, h4, h5, p {
-    font-family: "Segoe UI Symbol";
+    font-family: "Segoe UI Symbol", serif;
     color: white;
 }
 a{
-    font-family: "Segoe UI Symbol";
+    font-family: "Segoe UI Symbol", serif;
     color: white;
     font-size:25px;
 }
+/*Top of the site*/
 .cont-head {
     background-color: #2C3639;
     text-align: center;
     width: 100%;
     height: 100px;
-    border: 0px red;
+    border: 0 red;
     opacity: 0.6;
     border-radius: 80px;
     transition: 0.7s;
@@ -35,16 +31,13 @@ a{
     box-shadow: 1px 1px 15px grey;
     opacity: 1
 }
-
-.cont-head-text {
-}
-
+/*Apps*/
 .cont-bd {
     background-color: #2C3639;
     text-align: center;
     width: 45%;
     height: 400px;
-    border: 0px red;
+    border: 0 red;
     position: absolute;
     top: 200px;
     opacity: 0.6;
@@ -63,7 +56,7 @@ a{
     text-align: center;
     width: 45%;
     height: 400px;
-    border: 0px red;
+    border: 0 red;
     position: absolute;
     top: 200px;
     left: 60%;
@@ -77,9 +70,9 @@ a{
     box-shadow: 1px 1px 15px grey;
     opacity: 1
 }
-
+/*Icons etc.*/
 .icon_game_fc {
-    border: 0px #2C3639;
+    border: 0 #2C3639;
     box-radius: 30px;
     border-radius: 9000px;
     width: 150px;
